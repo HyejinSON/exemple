@@ -1,0 +1,9 @@
+##KSNET_입반송
+00. 입반송 파일 받기
+ >> KSNetLib_FileDataComm.java
+ >> Ksnet에서 제공하는 lib로 소켓통신
+ >> 받아온 파일을 내부 서버에 저장 한 후 해당 파일을 읽어들여 DB에 저장
+
+01. 원천데이터 저장
+ >> 원천데이터 저장 Table 별도로 만들기
+ >> 입반송 포멧 json으로 setting

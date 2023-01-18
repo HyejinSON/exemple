@@ -1,0 +1,274 @@
+ {
+  "testJson" : [
+    {
+      "name" : "RECV_LEN",
+      "str_idx" : 0,
+      "length" : 4,
+      "type" : "string"
+    } ,
+    {
+      "name" : "ENC_TYPE",
+      "str_idx" : 4,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "VERSION",
+      "str_idx" : 5,
+      "length" : 4,
+      "type" : "string"
+    },
+    {
+      "name" : "VERSION_TYPE",
+      "str_idx" : 9,
+      "length" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "RESEND",
+      "str_idx" : 11,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "REQUEST_DATE",
+      "str_idx" : 12,
+      "length" : 14,
+      "type" : "string"
+    },
+    {
+      "name" : "STORE_ID",
+      "str_idx" : 26,
+      "length" : 10,
+      "type" : "string"
+    },
+    {
+      "name" : "ORDER_NUMBER",
+      "str_idx" : 36,
+      "length" : 50,
+      "type" : "string"
+    },
+    {
+      "name" : "USER_NAME",
+      "str_idx" : 86,
+      "length" : 50,
+      "type" : "string"
+    },
+    {
+      "name" : "ID_NUM",
+      "str_idx" : 136,
+      "length" : 13,
+      "type" : "string"
+    },
+    {
+      "name" : "EMAIL",
+      "str_idx" : 149,
+      "length" : 50,
+      "type" : "string"
+    },
+    {
+      "name" : "GOOD_TYPE",
+      "str_idx" : 199,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "GOOD_NAME",
+      "str_idx" : 200,
+      "length" : 50,
+      "type" : "string"
+    },
+    {
+      "name" : "KEY_IN_TYPE",
+      "str_idx" : 250,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "LINE_TYPE",
+      "str_idx" : 251,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "PHONE_NO",
+      "str_idx" : 252,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "APPROVAL_COUNT",
+      "str_idx" : 264,
+      "length" : 1,
+      "type" : "integer"
+    },
+    {
+      "name" : "HEAD_FILLER",
+      "str_idx" : 265,
+      "length" : 35,
+      "type" : "string"
+    },
+    {
+      "name" : "R_APPROVAL_TYPE",
+      "str_idx" : 300,
+      "length" : 4,
+      "type" : "string"
+    },
+    {
+      "name" : "R_TRANS_ACTION_NO",
+      "str_idx" : 304,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_STATUS",
+      "str_idx" : 316,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_TRADE_DATE",
+      "str_idx" : 317,
+      "length" : 8,
+      "type" : "string"
+    },
+    {
+      "name" : "R_TRADE_TIME",
+      "str_idx" : 325,
+      "length" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "R_LSS_CODE",
+      "str_idx" : 331,
+      "length" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "R_AQU_CODE",
+      "str_idx" : 337,
+      "length" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "R_AUTH_NO",
+      "str_idx" : 343,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_MESSAGE1",
+      "str_idx" : 355,
+      "length" : 16,
+      "type" : "string"
+    },
+    {
+      "name" : "R_MESSAGE2",
+      "str_idx" : 371,
+      "length" : 16,
+      "type" : "string"
+    },
+    {
+      "name" : "R_CARD_NO",
+      "str_idx" : 387,
+      "length" : 16,
+      "type" : "string"
+    },
+    {
+      "name" : "R_EXP_DATE",
+      "str_idx" : 403,
+      "length" : 4,
+      "type" : "string"
+    },
+    {
+      "name" : "R_INSTALLMENT",
+      "str_idx" : 407,
+      "length" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "R_AMOUNT",
+      "str_idx" : 409,
+      "length" : 9,
+      "type" : "integer"
+    },
+    {
+      "name" : "R_MERCHAN_NO",
+      "str_idx" : 418,
+      "length" : 15,
+      "type" : "string"
+    },
+    {
+      "name" : "R_AUTH_SAND_TYPE",
+      "str_idx" : 433,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_APPROVAL_SAND_TYPE",
+      "str_idx" : 434,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_POINT1",
+      "str_idx" : 435,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_POINT2",
+      "str_idx" : 447,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_POINT3",
+      "str_idx" : 459,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_POINT4",
+      "str_idx" : 471,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" : "R_VAN_TRANS_ACTION_NO",
+      "str_idx" : 483,
+      "length" : 12,
+      "type" : "string"
+    },
+    {
+      "name" :  "R_FILLER",
+      "str_idx" : 495,
+      "length" : 82,
+      "type" : "string"
+    },
+    {
+      "name" : "R_AUTH_TYPE",
+      "str_idx" : 577,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_MPI_POSITION_TYPE",
+      "str_idx" : 578,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_MPI_RE_USE_TYPE",
+      "str_idx" : 579,
+      "length" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "R_FILLER_1",
+      "str_idx" : 560,
+      "length" : 4,
+      "type" : "string"
+    }
+  ]
+}

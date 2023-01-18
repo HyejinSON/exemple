@@ -1,0 +1,106 @@
+{
+  "record" : [
+    {
+      "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "REQ_CNT",
+      "str_idx" : 1,
+      "len" : 7,
+      "type" : "integer"
+    },
+    {
+      "name" : "REQ_AMT",
+      "str_idx" : 8,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "RTN_CNT",
+      "str_idx" : 20,
+      "len" : 7,
+      "type" : "integer"
+    },
+    {
+      "name" : "RTN_AMT",
+      "str_idx" : 27,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_CNT",
+      "str_idx" : 39,
+      "len" : 7,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_AMT",
+      "str_idx" : 46,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_RTN_CNT",
+      "str_idx" : 58,
+      "len" : 7,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_RTN_AMT",
+      "str_idx" : 65,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "SUM_CNT",
+      "str_idx" : 77,
+      "len" : 7,
+      "type" : "integer"
+    },
+    {
+      "name" : "SUM_AMT",
+      "str_idx" : 84,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "FEE",
+      "str_idx" : 96,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "PAYMENT_DT",
+      "str_idx" : 108,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "PAYMENT_AMT",
+      "str_idx" : 114,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "MID",
+      "str_idx" : 126,
+      "len" : 13,
+      "type" : "string"
+    },
+    {
+      "name" : "SEND_DT",
+      "str_idx" : 139,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "FILLER",
+      "str_idx" : 145,
+      "len" : 5,
+      "type" : "string"
+    }
+  ]
+}

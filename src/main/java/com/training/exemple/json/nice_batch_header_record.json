@@ -1,0 +1,78 @@
+{
+  "record" : [
+    {
+      "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "CURRENCY_CD",
+      "str_idx" : 2,
+      "len" : 3,
+      "type" : "string",
+      "default" : "410"
+    },
+    {
+      "name" : "FILE_REG_DT",
+      "str_idx" : 5,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "MID",
+      "str_idx" : 11,
+      "len" : 10,
+      "type" : "string"
+    },
+    {
+      "name" : "ST_FG_CD",
+      "str_idx" : 21,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "CARD_MID",
+      "str_idx" : 23,
+      "len" : 10,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_DT_FROM",
+      "str_idx" : 33,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_DT_TO",
+      "str_idx" : 39,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "SERVICE_FG",
+      "str_idx" : 45,
+      "len" : 3,
+      "type" : "string",
+      "default" : "HDC"
+    },
+    {
+      "name" : "SALES_DT_FROM",
+      "str_idx" : 66,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_DT_TO",
+      "str_idx" : 72,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "REQ_DT",
+      "str_idx" : 78,
+      "len" : 6,
+      "type" : "string"
+    }
+  ]
+}

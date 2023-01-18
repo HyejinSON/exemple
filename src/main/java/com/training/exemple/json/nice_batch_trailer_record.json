@@ -1,0 +1,88 @@
+{
+  "record" : [
+    {
+      "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "ACCEPT_CNT",
+      "str_idx" : 1,
+      "len" : 6,
+      "type" : "integer"
+    },
+    {
+      "name" : "ACCEPT_AMT",
+      "str_idx" : 7,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "RTN_CNT",
+      "str_idx" : 19,
+      "len" : 6,
+      "type" : "integer"
+    },
+    {
+      "name" : "RTN_AMT",
+      "str_idx" : 25,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_CNT",
+      "str_idx" : 37,
+      "len" : 6,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_AMT",
+      "str_idx" : 43,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_RTN_CNT",
+      "str_idx" : 55,
+      "len" : 6,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEF_RTN_AMT",
+      "str_idx" : 61,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "SUM_CNT",
+      "str_idx" : 73,
+      "len" : 6,
+      "type" : "integer"
+    },
+    {
+      "name" : "SUM_AMT",
+      "str_idx" : 79,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "FEE_SUM",
+      "str_idx" : 91,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "DEPOSIT_AMT",
+      "str_idx" : 103,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "ACCOUNT_NO",
+      "str_idx" : 115,
+      "len" : 12,
+      "type" : "integer"
+    }
+  ]
+}

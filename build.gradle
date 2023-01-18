@@ -1,0 +1,53 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web-services'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'  //mariaDB
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    //mybatis
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+    //ojdbc
+    implementation 'com.oracle.database.jdbc:ojdbc8:21.5.0.0'
+    //json
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+    //gson
+    implementation 'com.google.code.gson:gson:2.9.0'
+    //jsch
+    implementation 'com.jcraft:jsch:0.1.55'
+
+    //slack webhook
+    implementation 'com.slack.api:slack-api-client:1.15.0'
+    implementation 'com.slack.api:slack-api-model:1.15.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    //내부 라이브러리 경로지정
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

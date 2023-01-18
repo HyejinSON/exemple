@@ -1,0 +1,106 @@
+{
+  "record" : [
+    {
+      "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 1,
+      "type" : "string"
+    },
+    {
+      "name" : "TRAN_FG",
+      "str_idx" : 1,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_DT",
+      "str_idx" : 3,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "ACCEPT_DT",
+      "str_idx" : 9,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "CARD_NO",
+      "str_idx" : 15,
+      "len" : 20,
+      "type" : "string"
+    },
+    {
+      "name" : "INS",
+      "str_idx" : 35,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "APPR_NO",
+      "str_idx" : 37,
+      "len" : 8,
+      "type" : "string"
+    },
+    {
+      "name" : "CARD_RETURN_CD",
+      "str_idx" : 45,
+      "len" : 4,
+      "type" : "string"
+    },
+    {
+      "name" : "KSNET_RETURN_CD",
+      "str_idx" : 49,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_AMT",
+      "str_idx" : 51,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "CARD_CODE",
+      "str_idx" : 63,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "MID",
+      "str_idx" :  65,
+      "len" : 15,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_FG",
+      "str_idx" : 80,
+      "len" : 5,
+      "type" : "string"
+    },
+    {
+      "name" : "PAYMENT_DT",
+      "str_idx" : 85,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "STORE_SPACE",
+      "str_idx" : 91,
+      "len" : 20,
+      "type" : "string"
+    },
+    {
+      "name" : "FEE",
+      "str_idx" : 111,
+      "len" : 9,
+      "type" : "integer"
+    },
+    {
+      "name" : "FILLER",
+      "str_idx" : 120,
+      "len" : 30,
+      "type" : "string"
+    }
+  ]
+}

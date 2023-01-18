@@ -1,0 +1,102 @@
+{
+  "record" : [
+    {
+     "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "INS",
+      "str_idx" : 1,
+      "len" : 3,
+      "type" : "string",
+      "default" : "410"
+    },
+    {
+      "name" : "CSI",
+      "str_idx" : 4,
+      "len" : 1,
+      "type" : "string",
+      "default" : "0"
+    },
+    {
+      "name" : "SALES_DT",
+      "str_idx" : 5,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "ACCEPT_DT",
+      "str_idx" : 11,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "CARD_NO",
+      "str_idx" : 17,
+      "len" : 19,
+      "type" : "string"
+    },
+    {
+      "name" : "INSTALMENT",
+      "str_idx" : 38,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "SALES_AMT",
+      "str_idx" : 38,
+      "len" : 10,
+      "type" : "integer"
+    },
+    {
+      "name" : "CARD_RETURN_CD",
+      "str_idx" : 48,
+      "len" : 4,
+      "type" : "string"
+    },
+    {
+      "name" : "NICE_RETURN_CD",
+      "str_idx" : 52,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "ID_NO",
+      "str_idx" : 54,
+      "len" : 13,
+      "type" : "string"
+    },
+    {
+      "name" : "KR_NAME",
+      "str_idx" : 67,
+      "len" : 10,
+      "type" : "string"
+    },
+    {
+      "name" : "FEE",
+      "str_idx" : 77,
+      "len" : 12,
+      "type" : "integer"
+    },
+    {
+      "name" : "SERIAL_NO",
+      "str_idx" : 89,
+      "len" : 28,
+      "type" : "string"
+    },
+    {
+      "name" : "TELL_NO",
+      "str_idx" : 117,
+      "len" : 20,
+      "type" : "string"
+    },
+    {
+      "name" : "APPR_NO",
+      "str_idx" : 137,
+      "len" : 10,
+      "type" : "string"
+    }
+  ]
+}

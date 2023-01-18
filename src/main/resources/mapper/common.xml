@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.training.exemple.training.dao.cmmMapper">
+    <select id="getSftpInfo" parameterType="String" resultType="sftpInfoMap">
+        SELECT *
+        FROM TB_SFTP_INFO
+        WHERE 1=1
+        AND VAN_NAME = #{vanNm}
+    </select>
+</mapper>

@@ -1,0 +1,28 @@
+{
+  "record" : [
+    {
+      "name" : "RECORD_FG",
+      "str_idx" : 0,
+      "len" : 2,
+      "type" : "string"
+    },
+    {
+      "name" : "FILE_REG_DT",
+      "str_idx" : 1,
+      "len" : 6,
+      "type" : "string"
+    },
+    {
+      "name" : "STORE_BIN",
+      "str_idx" : 7,
+      "len" : 10,
+      "type" : "string"
+    },
+    {
+      "name" : "NICE_BIN",
+      "str_idx" : 17,
+      "len" : 10,
+      "type" : "string"
+    }
+  ]
+}

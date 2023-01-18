@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+## datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: "jdbc:mysql://127.0.0.1:3306/jane"
+    username: "jane"
+    password: "1234"
+
+
+##json_file_path
+json:
+  ksnet:
+    data_record: "/src/main/java/com/training/exemple/jsonFile/ksnet_batch_data_record.json"
+    result_record: "/src/main/java/com/training/exemple/jsonFile/ksnet_batch_result_record.json"
+## sftp info
+ksnet:
+  ip: "210.181.28.207"
+  port: 20280
+
+nice:
+  sftp:
+    host:
+    port:
+    id:
+    pw:
